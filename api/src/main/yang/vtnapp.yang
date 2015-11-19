@@ -1,0 +1,9 @@
+module vtnapp {
+    yang-version 1;
+    namespace "urn:opendaylight:params:xml:ns:yang:vtnapp";
+    prefix "vtnapp";
+
+    revision "2015-01-05" {
+        description "Initial revision of vtnapp model";
+    }
+}
