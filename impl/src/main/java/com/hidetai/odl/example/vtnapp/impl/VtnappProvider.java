@@ -13,12 +13,16 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class VtnappProvider implements BindingAwareProvider, AutoCloseable {
-
     private static final Logger LOG = LoggerFactory.getLogger(VtnappProvider.class);
+
+    private VtnMgrService vtnMgr;
 
     @Override
     public void onSessionInitiated(ProviderContext session) {
         LOG.info("VtnappProvider Session Initiated");
+
+        vtnMgr = new VtnMgrService(session);
+        LOG.info("The API version of VTN Manager is {}", vtnMgr.getApiVersion());
     }
 
     @Override

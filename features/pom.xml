@@ -28,6 +28,7 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
     <yangtools.version>0.8.0-SNAPSHOT</yangtools.version>
     <dlux.version>0.3.0-SNAPSHOT</dlux.version>
     <configfile.directory>etc/opendaylight/karaf</configfile.directory>
+    <vtn.version>0.4.0-SNAPSHOT</vtn.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -86,6 +87,14 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
       <artifactId>features-dlux</artifactId>
       <classifier>features</classifier>
       <version>${dlux.version}</version>
+      <type>xml</type>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.vtn</groupId>
+      <artifactId>features-vtn-manager</artifactId>
+      <classifier>features</classifier>
+      <version>${vtn.version}</version>
       <type>xml</type>
       <scope>runtime</scope>
     </dependency>
