@@ -10,7 +10,7 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
   <parent>
     <groupId>org.opendaylight.odlparent</groupId>
     <artifactId>features-parent</artifactId>
-    <version>1.6.0-SNAPSHOT</version>
+    <version>1.6.2-Beryllium-SR2</version>
     <relativePath/>
   </parent>
   <groupId>com.hidetai.odl.example</groupId>
@@ -22,13 +22,13 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
     <maven>3.1.1</maven>
   </prerequisites>
   <properties>
-    <mdsal.model.version>0.8.0-SNAPSHOT</mdsal.model.version>
-    <mdsal.version>1.3.0-SNAPSHOT</mdsal.version>
-    <restconf.version>1.3.0-SNAPSHOT</restconf.version>
-    <yangtools.version>0.8.0-SNAPSHOT</yangtools.version>
-    <dlux.version>0.3.0-SNAPSHOT</dlux.version>
+    <mdsal.model.version>0.8.2-Beryllium-SR2</mdsal.model.version>
+    <mdsal.version>1.3.2-Beryllium-SR2</mdsal.version>
+    <restconf.version>1.3.2-Beryllium-SR2</restconf.version>
+    <yangtools.version>0.8.2-Beryllium-SR2</yangtools.version>
+    <dlux.version>0.3.2-Beryllium-SR2</dlux.version>
     <configfile.directory>etc/opendaylight/karaf</configfile.directory>
-    <vtn.version>0.4.0-SNAPSHOT</vtn.version>
+    <vtn.version>0.4.2-Beryllium-SR2</vtn.version>
   </properties>
   <dependencyManagement>
     <dependencies>
